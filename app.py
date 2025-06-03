@@ -158,6 +158,7 @@ if page == "Home":
     focando na remessa necessária. Explore os resultados, interaja com os dados e acesse os notebooks para mais detalhes.
     """)
     st.markdown(get_download_link('tcc.pdf', 'VERSÃO A SER APROVADA PELA BANCA, EM ANÁLISE'), unsafe_allow_html=True)
+    st.markdown(get_download_link('tcc_ap.pdf', 'VERSÃO DA APRESENTAÇÃO'), unsafe_allow_html=True)
 
 # Results Page
 elif page == "Resultados":
